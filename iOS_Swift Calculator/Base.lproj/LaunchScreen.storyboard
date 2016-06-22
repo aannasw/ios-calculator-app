@@ -4,6 +4,11 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="typewcond_demi.otf">
+            <string>Typewriter_Condensed_Demi</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="EHf-IW-A2E">
@@ -16,7 +21,51 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="woodbg" translatesAutoresizingMaskIntoConstraints="NO" id="apI-3T-SzO">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="4C3-Yd-Iwm">
+                                <rect key="frame" x="128" y="131" width="345" height="338"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="4qK-TA-Bgu">
+                                        <rect key="frame" x="0.0" y="0.0" width="345" height="47"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vintage Calculator" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gsz-Vq-NAc">
+                                                <rect key="frame" x="0.0" y="0.0" width="345" height="47"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="345" id="k1Y-Hf-evT"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Typewriter_Condensed_Demi" family="Typewriter_Condensed_Demi" pointSize="35"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="XUZ-BM-VHS">
+                                        <rect key="frame" x="0.0" y="47" width="345" height="291"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="YostTypewriter" translatesAutoresizingMaskIntoConstraints="NO" id="JrB-3I-6rL">
+                                                <rect key="frame" x="0.0" y="0.0" width="345" height="291"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="291" id="AGa-wO-RRq"/>
+                                                    <constraint firstAttribute="width" constant="313" id="ORO-Ts-oTO"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="4C3-Yd-Iwm" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="AeP-HP-qqb"/>
+                            <constraint firstAttribute="trailing" secondItem="apI-3T-SzO" secondAttribute="trailing" id="Dxp-9V-vfG"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="apI-3T-SzO" secondAttribute="bottom" id="e1m-pK-m7e"/>
+                            <constraint firstItem="4C3-Yd-Iwm" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="gVy-Kk-3tg"/>
+                            <constraint firstItem="apI-3T-SzO" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="qkA-Ft-HGH"/>
+                            <constraint firstItem="apI-3T-SzO" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="sQ1-fM-Uqd"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -24,4 +73,8 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="YostTypewriter" width="1818" height="1832"/>
+        <image name="woodbg" width="736" height="552"/>
+    </resources>
 </document>

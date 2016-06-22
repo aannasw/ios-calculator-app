@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A4EDC8D1D19F84E0015F335 /* typewcond_demi.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A4EDC8C1D19F84E0015F335 /* typewcond_demi.otf */; };
+		6A4EDC901D19FFDC0015F335 /* typewriter_ding.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6A4EDC8E1D19FFDB0015F335 /* typewriter_ding.m4a */; };
+		6A4EDC911D19FFDC0015F335 /* typewriter_hit.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6A4EDC8F1D19FFDC0015F335 /* typewriter_hit.m4a */; };
 		6A5BD5CF1D18B2D3005031EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5BD5CE1D18B2D3005031EC /* AppDelegate.swift */; };
 		6A5BD5D11D18B2D3005031EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5BD5D01D18B2D3005031EC /* ViewController.swift */; };
 		6A5BD5D41D18B2D3005031EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A5BD5D21D18B2D3005031EC /* Main.storyboard */; };
-		6A5BD5D61D18B2D3005031EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A5BD5D51D18B2D3005031EC /* Assets.xcassets */; };
 		6A5BD5D91D18B2D3005031EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A5BD5D71D18B2D3005031EC /* LaunchScreen.storyboard */; };
+		6AB74AEF1D1A81D70078A620 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AB74AEE1D1A81D70078A620 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6A4EDC8C1D19F84E0015F335 /* typewcond_demi.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = typewcond_demi.otf; path = ../typewcond_demi.otf; sourceTree = "<group>"; };
+		6A4EDC8E1D19FFDB0015F335 /* typewriter_ding.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = typewriter_ding.m4a; sourceTree = "<group>"; };
+		6A4EDC8F1D19FFDC0015F335 /* typewriter_hit.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = typewriter_hit.m4a; sourceTree = "<group>"; };
 		6A5BD5CB1D18B2D3005031EC /* iOS_Swift Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS_Swift Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A5BD5CE1D18B2D3005031EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6A5BD5D01D18B2D3005031EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6A5BD5D31D18B2D3005031EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6A5BD5D51D18B2D3005031EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A5BD5D81D18B2D3005031EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A5BD5DA1D18B2D3005031EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AB74AEE1D1A81D70078A620 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +60,15 @@
 		6A5BD5CD1D18B2D3005031EC /* iOS_Swift Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				6A4EDC8C1D19F84E0015F335 /* typewcond_demi.otf */,
+				6A4EDC8E1D19FFDB0015F335 /* typewriter_ding.m4a */,
+				6A4EDC8F1D19FFDC0015F335 /* typewriter_hit.m4a */,
 				6A5BD5CE1D18B2D3005031EC /* AppDelegate.swift */,
 				6A5BD5D01D18B2D3005031EC /* ViewController.swift */,
 				6A5BD5D21D18B2D3005031EC /* Main.storyboard */,
-				6A5BD5D51D18B2D3005031EC /* Assets.xcassets */,
 				6A5BD5D71D18B2D3005031EC /* LaunchScreen.storyboard */,
 				6A5BD5DA1D18B2D3005031EC /* Info.plist */,
+				6AB74AEE1D1A81D70078A620 /* Images.xcassets */,
 			);
 			path = "iOS_Swift Calculator";
 			sourceTree = "<group>";
@@ -122,9 +131,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A4EDC8D1D19F84E0015F335 /* typewcond_demi.otf in Resources */,
 				6A5BD5D91D18B2D3005031EC /* LaunchScreen.storyboard in Resources */,
-				6A5BD5D61D18B2D3005031EC /* Assets.xcassets in Resources */,
 				6A5BD5D41D18B2D3005031EC /* Main.storyboard in Resources */,
+				6AB74AEF1D1A81D70078A620 /* Images.xcassets in Resources */,
+				6A4EDC901D19FFDC0015F335 /* typewriter_ding.m4a in Resources */,
+				6A4EDC911D19FFDC0015F335 /* typewriter_hit.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
