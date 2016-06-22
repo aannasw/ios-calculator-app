@@ -35,7 +35,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="mHC-Ul-aPM">
                                         <rect key="frame" x="0.0" y="0.0" width="240" height="65"/>
                                         <subviews>
-                                            <imageView opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calculatorpanel" translatesAutoresizingMaskIntoConstraints="NO" id="kxN-58-7E3">
+                                            <imageView opaque="NO" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calculatorpanel" translatesAutoresizingMaskIntoConstraints="NO" id="kxN-58-7E3">
                                                 <rect key="frame" x="0.0" y="0.0" width="240" height="65"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="240" id="Nin-1Z-TzB"/>
@@ -254,9 +254,6 @@
                                                             <constraint firstAttribute="height" constant="63" id="Auy-rT-jYv"/>
                                                             <constraint firstAttribute="width" constant="63" id="npf-wx-yqO"/>
                                                         </constraints>
-                                                        <connections>
-                                                            <action selector="onMultiplyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EbO-0R-WLl"/>
-                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DtQ-KA-aQi">
                                                         <rect key="frame" x="86" y="0.0" width="63" height="63"/>
@@ -267,7 +264,6 @@
                                                         <state key="normal" image="clear"/>
                                                         <connections>
                                                             <action selector="onClearPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8y1-Ct-oEV"/>
-                                                            <action selector="onDividePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ebc-VL-5ZN"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6bC-Ih-Djt">
@@ -276,9 +272,6 @@
                                                             <constraint firstAttribute="height" constant="63" id="4GG-So-PMb"/>
                                                             <constraint firstAttribute="width" constant="63" id="XUK-lV-iyv"/>
                                                         </constraints>
-                                                        <connections>
-                                                            <action selector="onEqualPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H5S-KE-XR3"/>
-                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>

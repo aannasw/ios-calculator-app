@@ -80,12 +80,12 @@ class ViewController: UIViewController {
     // Functions
     
     func clearCalculator() {
-        runningNumber = ""
-        rightValStr = "0.0"
-        leftValStr = "0.0"
+        //runningNumber = "0.0"
+        currentOperation = Operation.Empty
+        rightValStr = ""
+        leftValStr = ""
         outputLbl.text = "0"
         result = ""
-        currentOperation = Operation.Empty
     }
     
     func processOperation(op: Operation) {
